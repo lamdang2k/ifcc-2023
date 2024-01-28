@@ -1,0 +1,26 @@
+*.o
+compiler/build
+compiler/src/grammar_generated_files
+compiler/tree
+windows_tree.ps1
+*.txt
+*.s
+*.c
+*.png
+*.drawio
+*.out
+.vscode
+ifcc-test-output
+# People Who use make direclty
+antlr
+.antlr 
+# MAC 
+.DS_Store
+
+#Don't exclude 
+!tests/testfiles/**/*.c
+
+#Demo
+!demo/life.c
+exe-life
+life.s
